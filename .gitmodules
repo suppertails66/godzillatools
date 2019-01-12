@@ -1,0 +1,3 @@
+[submodule "godzilla/wla-dx"]
+	path = godzilla/wla-dx
+	url = https://github.com/vhelin/wla-dx
