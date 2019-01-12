@@ -1,0 +1,559 @@
+//=======================================
+// unit names
+//=======================================
+
+#LOADTABLE("table/godzilla_vwf_en_narrow.tbl")
+
+// substring 0
+#STARTMSG(0x0, 11, 2)
+
+// ゴジラ　　　　　[end]
+Godzilla
+[end]
+
+
+#ENDMSG()
+
+// substring 1
+#STARTMSG(0xB, 11, 2)
+
+// Ｓ・ゴジラ　　　[end]
+S. Godzilla
+[end]
+
+
+#ENDMSG()
+
+// substring 2
+#STARTMSG(0x16, 10, 2)
+
+// アンギラス　　　[end]
+Anguirus
+[end]
+
+
+#ENDMSG()
+
+// substring 3
+#STARTMSG(0x20, 10, 2)
+
+// Ｆ・ラドン　　　[end]
+Fire Rodan
+[end]
+
+
+#ENDMSG()
+
+// substring 4
+#STARTMSG(0x2A, 12, 2)
+
+// キングギドラ　　[end]
+King Ghidorah
+[end]
+
+
+#ENDMSG()
+
+// substring 5
+#STARTMSG(0x36, 11, 2)
+
+// ガイガン　　　　[end]
+Gigan
+[end]
+
+
+#ENDMSG()
+
+// substring 6
+#STARTMSG(0x41, 12, 2)
+
+// スペースゴジラ　[end]
+SpaceGodzilla
+[end]
+
+
+#ENDMSG()
+
+// substring 7
+#STARTMSG(0x4D, 9, 2)
+
+// モスラ　　　　　[end]
+Mothra
+[end]
+
+
+#ENDMSG()
+
+// substring 8
+#STARTMSG(0x56, 10, 2)
+
+// スーパーＸ　　　[end]
+Super-X
+[end]
+
+
+#ENDMSG()
+
+// substring 9
+#STARTMSG(0x60, 10, 2)
+
+// スーパーＸ２　　[end]
+Super-X2
+[end]
+
+
+#ENDMSG()
+
+// substring 10
+#STARTMSG(0x6A, 11, 2)
+
+// メカギドラ　　　[end]
+//Mecha-King Ghidorah
+MechaGhidorah
+[end]
+
+
+#ENDMSG()
+
+// substring 11
+#STARTMSG(0x75, 11, 2)
+
+// メカゴジラ　　　[end]
+Mechagodzilla
+[end]
+
+
+#ENDMSG()
+
+// substring 12
+#STARTMSG(0x80, 11, 2)
+
+// Ｓ・メカゴジラ　[end]
+//Super-Mechagodzilla
+S. Mechagodzilla
+[end]
+
+
+#ENDMSG()
+
+// substring 13
+#STARTMSG(0x8B, 11, 2)
+
+// ガルーダ　　　　[end]
+Garuda
+[end]
+
+
+#ENDMSG()
+
+// substring 14
+#STARTMSG(0x96, 10, 2)
+
+// モゲラ　　　　　[end]
+MOGUERA
+[end]
+
+
+#ENDMSG()
+
+// substring 15
+#STARTMSG(0xA0, 9, 2)
+
+// ６１しきせんしゃ[end]
+Type61 Tank
+[end]
+
+
+#ENDMSG()
+
+// substring 16
+#STARTMSG(0xA9, 9, 2)
+
+// ６１しきせんしゃ[end]
+Type61 Tank
+[end]
+
+
+#ENDMSG()
+
+// substring 17
+#STARTMSG(0xB2, 9, 2)
+
+// ６１しきせんしゃ[end]
+Type61 Tank
+[end]
+
+
+#ENDMSG()
+
+// substring 18
+#STARTMSG(0xBB, 9, 2)
+
+// ７４しきせんしゃ[end]
+Type74 Tank
+[end]
+
+
+#ENDMSG()
+
+// substring 19
+#STARTMSG(0xC4, 9, 2)
+
+// ７４しきせんしゃ[end]
+Type74 Tank
+[end]
+
+
+#ENDMSG()
+
+// substring 20
+#STARTMSG(0xCD, 9, 2)
+
+// ７４しきせんしゃ[end]
+Type74 Tank
+[end]
+
+
+#ENDMSG()
+
+// substring 21
+#STARTMSG(0xD6, 9, 2)
+
+// Ｍ２４せんしゃ　[end]
+M24 Tank
+[end]
+
+
+#ENDMSG()
+
+// substring 22
+#STARTMSG(0xDF, 9, 2)
+
+// Ｍ２４せんしゃ　[end]
+M24 Tank
+[end]
+
+
+#ENDMSG()
+
+// substring 23
+#STARTMSG(0xE8, 9, 2)
+
+// Ｍ２４せんしゃ　[end]
+M24 Tank
+[end]
+
+
+#ENDMSG()
+
+// substring 24
+#STARTMSG(0xF1, 9, 2)
+
+// ミサイルほう　　[end]
+Missile Launcher
+[end]
+
+
+#ENDMSG()
+
+// substring 25
+#STARTMSG(0xFA, 9, 2)
+
+// ミサイルほう　　[end]
+Missile Launcher
+[end]
+
+
+#ENDMSG()
+
+// substring 26
+#STARTMSG(0x103, 9, 2)
+
+// ７５しきミサイル[end]
+Type75 Missile
+[end]
+
+
+#ENDMSG()
+
+// substring 27
+#STARTMSG(0x10C, 9, 2)
+
+// ７５しきミサイル[end]
+Type75 Missile
+[end]
+
+
+#ENDMSG()
+
+// substring 28
+#STARTMSG(0x115, 10, 2)
+
+// おおがたミサイル[end]
+//Large Missile Launcher
+L. Missile Launcher
+[end]
+
+
+#ENDMSG()
+
+// substring 29
+#STARTMSG(0x11F, 10, 2)
+
+// おおがたミサイル[end]
+L. Missile Launcher
+[end]
+
+
+#ENDMSG()
+
+// substring 30
+#STARTMSG(0x129, 10, 2)
+
+// おおがたミサイル[end]
+L. Missile Launcher
+[end]
+
+
+#ENDMSG()
+
+// substring 31
+#STARTMSG(0x133, 9, 2)
+
+// ねっせんほう　　[end]
+Heatray Cannon
+[end]
+
+
+#ENDMSG()
+
+// substring 32
+#STARTMSG(0x13C, 9, 2)
+
+// メーサーしゃ　　[end]
+Maser Emitter
+[end]
+
+
+#ENDMSG()
+
+// substring 33
+#STARTMSG(0x145, 9, 2)
+
+// メーサータンク　[end]
+Maser Tank
+[end]
+
+
+#ENDMSG()
+
+// substring 34
+#STARTMSG(0x14E, 9, 2)
+
+// メーサータンク　[end]
+Maser Tank
+[end]
+
+
+#ENDMSG()
+
+// substring 35
+#STARTMSG(0x157, 9, 2)
+
+// たいくうメーサー[end]
+Anti-Air Maser
+[end]
+
+
+#ENDMSG()
+
+// substring 36
+#STARTMSG(0x160, 9, 2)
+
+// たいくうメーサー[end]
+Anti-Air Maser
+[end]
+
+
+#ENDMSG()
+
+// substring 37
+#STARTMSG(0x169, 9, 2)
+
+// ゆそうトラック　[end]
+Transport Truck
+[end]
+
+
+#ENDMSG()
+
+// substring 38
+#STARTMSG(0x172, 10, 2)
+
+// ごえいかん　　　[end]
+Destroyer
+[end]
+
+
+#ENDMSG()
+
+// substring 39
+#STARTMSG(0x17C, 10, 2)
+
+// ごえいかん　　　[end]
+Destroyer
+[end]
+
+
+#ENDMSG()
+
+// substring 40
+#STARTMSG(0x186, 10, 2)
+
+// ごえいかん　　　[end]
+Destroyer
+[end]
+
+
+#ENDMSG()
+
+// substring 41
+#STARTMSG(0x190, 9, 2)
+
+// ゆそうかん　　　[end]
+Transport Ship
+[end]
+
+
+#ENDMSG()
+
+// substring 42
+#STARTMSG(0x199, 9, 2)
+
+// せんとうヘリ　　[end]
+Battle Copter
+[end]
+
+
+#ENDMSG()
+
+// substring 43
+#STARTMSG(0x1A2, 9, 2)
+
+// せんとうヘリ　　[end]
+Battle Copter
+[end]
+
+
+#ENDMSG()
+
+// substring 44
+#STARTMSG(0x1AB, 9, 2)
+
+// ゆそうヘリ　　　[end]
+Transport Copter
+[end]
+
+
+#ENDMSG()
+
+// substring 45
+#STARTMSG(0x1B4, 9, 2)
+
+// Ｆ８６せんとうき[end]
+F86 Fighter
+[end]
+
+
+#ENDMSG()
+
+// substring 46
+#STARTMSG(0x1BD, 9, 2)
+
+// Ｆ８６せんとうき[end]
+F86 Fighter
+[end]
+
+
+#ENDMSG()
+
+// substring 47
+#STARTMSG(0x1C6, 9, 2)
+
+// Ｆ８６せんとうき[end]
+F86 Fighter
+[end]
+
+
+#ENDMSG()
+
+// substring 48
+#STARTMSG(0x1CF, 9, 2)
+
+// Ｆ１５せんとうき[end]
+F15 Fighter
+[end]
+
+
+#ENDMSG()
+
+// substring 49
+#STARTMSG(0x1D8, 9, 2)
+
+// Ｆ１５せんとうき[end]
+F15 Fighter
+[end]
+
+
+#ENDMSG()
+
+// substring 50
+#STARTMSG(0x1E1, 9, 2)
+
+// Ｆ１５せんとうき[end]
+F15 Fighter
+[end]
+
+
+#ENDMSG()
+
+// substring 51
+#STARTMSG(0x1EA, 9, 2)
+
+// メーサーき　　　[end]
+Maser Jet
+[end]
+
+
+#ENDMSG()
+
+// substring 52
+#STARTMSG(0x1F3, 9, 2)
+
+// メーサーき　　　[end]
+Maser Jet
+[end]
+
+
+#ENDMSG()
+
+// substring 53
+#STARTMSG(0x1FC, 10, 2)
+
+// オキシジェン・Ｄ[end]
+Oxygen Destroyer
+[end]
+
+
+#ENDMSG()
+
+// substring 54
+#STARTMSG(0x206, 13, 2)
+
+// ベビーゴジラ　　[end]
+Baby Godzilla
+[end]
+
+
+#ENDMSG()
+

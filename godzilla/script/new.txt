@@ -1,0 +1,295 @@
+
+//=============================================================
+// various new strings. mostly, these replace what were
+// hardcoded tilemaps in the original game
+//=============================================================
+
+//===============================
+// turn counter string
+//===============================
+Turns Left[br]
+[tilebr][tilebr] [inline_num]
+[end]
+
+#ENDMSG()
+#BREAK()
+
+
+//===============================
+// separator between atk/def
+//===============================
+// / [end]
+   [end]
+
+#ENDMSG()
+#BREAK()
+
+
+//===============================
+// attack label on unit status
+// window
+//===============================
+ATK [inline_num]
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// defense label on unit status
+// window
+//===============================
+DEF [inline_num]
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// unit quantity
+//===============================
+//Remaining: [x][inline_num][end]
+ [space1px]Units Left: [x][inline_num]
+[end]
+
+#ENDMSG()
+#BREAK()
+
+
+//===============================
+// slash between current/max hp
+//===============================
+/
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// start menu
+//===============================
+// チェンジ
+// さくせん
+// ＳＡＶＥ
+// ＬＯＡＤ
+//Change[br]
+//Strategy[br]
+//Save[br]
+//Load
+//[end]
+
+End Turn[br]
+Strategy[br]
+Save[br]
+Load
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// y/n prompt
+//===============================
+ [space2px]Is this OK?[br]
+[tilebr]No[tilebr][tilebr][tilebr]Yes
+[end]
+
+#ENDMSG()
+#BREAK()
+
+
+//===============================
+// save prompt
+//===============================
+[tilebr][tilebr] Save?[br]
+[tilebr]No[tilebr][tilebr][tilebr]Yes
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// load prompt
+//===============================
+[tilebr][tilebr] Load?[br]
+[tilebr]No[tilebr][tilebr][tilebr]Yes
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// save confirmed message
+//===============================
+[tilebr][space3px]Saved.
+[end]
+
+#ENDMSG()
+#BREAK()
+
+
+//===============================
+// load failed message
+//===============================
+ [space2px]There is no save data.
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// merge garuda/mechagodzilla
+// prompt
+//===============================
+[tilebr] [space1px]Combine?[br]
+[tilebr]No[tilebr][tilebr][tilebr]Yes
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// unit actions list 1
+//===============================
+
+// 　　　　゛　　　　
+// 　　こうけき　　　
+// 　　しゅうりょう　
+// 　　　　　　　　　
+// 　　　　　　　　　
+// 
+Attack[br]
+Done
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// unit actions list 2
+//===============================
+
+// 　　　　　　　　　
+// 　　えんきょり　　
+// 　　しゅうりょう　
+// 　　　　　　　　　
+// 　　　　゛　　　　
+// 
+Long-Range[br]
+Done
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// unit actions list 3
+//===============================
+
+// 　　　　゛　　　　
+// 　　こうけき　　　
+// 　　えんきょり　　
+// 　　しゅうりょう　
+// 　　　　　　　　　
+// 
+Attack[br]
+Long-Range[br]
+Done
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// turn messages
+//===============================
+
+// ＣＰＵのターンです
+[tilebr]CPU's Turn
+[end]
+
+#ENDMSG()
+#BREAK()
+
+// あなたのターンです
+[tilebr][space2px]Your Turn
+[end]
+
+#ENDMSG()
+#BREAK()
+
+// うちゅうかいじゅうのターンです
+[tilebr]Space Monsters' Turn
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// turns left counter (unit
+// overview screen)
+//===============================
+
+ [space2px][inline_num] turns left
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// turns left counter (unit
+// overview screen) (singular)
+//===============================
+
+ [space2px][inline_num] turn left
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// countdown to monster arrival
+//===============================
+
+[space2px]will be complete[br]
+[space2px]in [inline_num] turns.
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// countdown to monster arrival
+// (one turn left)
+//===============================
+
+[space2px]will be complete[br]
+[space2px]in [inline_num] turn.
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//===============================
+// monster arrival countdown
+// names
+//===============================
+
+[space2px]MechaGhidorah
+[end]
+#ENDMSG()
+[space2px]Mechagodzilla
+[end]
+#ENDMSG()
+[space2px]MOGUERA
+[end]
+#ENDMSG()
+//[space2px]Oxygen Destroyer
+[space2px]Oxygen Destr.
+[end]
+#ENDMSG()
+
+#BREAK()
+
+
+

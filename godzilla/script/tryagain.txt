@@ -1,0 +1,42 @@
+//=======================================
+// "congratulations" screen
+//=======================================
+
+#SETSIZE(128, 6)
+
+// tilemap 0
+#STARTMSG(0x43EEA, 96, 2)
+
+// ゛　　　゛　　　　　　　　　　　
+// ほうえいくんの　クリアもくひょう
+// 　　　　　　　　　　　　　　　　
+// を　かくにんして　　　　　　　　
+// 　　　　゛　　　　　゛　　　　　
+// もういちと　チャレンシしよう！！
+// 
+Check the JSDF's objectives[br]
+[br]
+and try again!
+[end]
+
+#ENDMSG()
+#BREAK()
+
+// tilemap 1
+#STARTMSG(0x43F4A, 96, 2)
+
+// ゛゛　　　　　　　　　　　　　　
+// コシラの　クリアもくひょう　を　
+// 　　　　　　　　　　　　　　　　
+// かくにんして　　　　　　　　　　
+// 　　　　゛　　　　　゛　　　　　
+// もういちと　チャレンシしよう！！
+// 
+Check Godzilla's objectives[br]
+[br]
+and try again!
+[end]
+
+#ENDMSG()
+#BREAK()
+

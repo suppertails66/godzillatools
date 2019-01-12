@@ -1,0 +1,1108 @@
+//=======================================
+// dialogue messages
+//=======================================
+
+// substring 0
+#STARTMSG(0xD143, 21, 2)
+
+// 　　ぼうえいぐん[br]
+// 　へいきぜんめつ！[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 1
+#STARTMSG(0xD158, 34, 2)
+
+// ざんねんながら・・・[br]
+// せんとう　ふかのう[br]
+// 　に　なりました・・[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 2
+#STARTMSG(0xD17A, 32, 2)
+
+// ぼうえいぐん　を[br]
+// 　　かんぜん　に[br]
+// たたき　つぶしました[end]
+The JSDF has been utterly crushed.
+[end]
+
+
+#ENDMSG()
+
+// substring 3
+#STARTMSG(0xD19A, 13, 2)
+
+// [br]
+// ゴジラ　たおれる！[end]
+Godzilla defeated!
+[end]
+
+
+#ENDMSG()
+
+// substring 4
+#STARTMSG(0xD1A7, 36, 2)
+
+// ちみつな　せんじゅつ[br]
+// に　より　ゴジラ　を[br]
+// げきたい　しました[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 5
+#STARTMSG(0xD1CB, 29, 2)
+
+// てきの　せんりょくを[br]
+// あまく　みていた[br]
+// ようです・・・[end]
+It seems you've underestimated the enemy...
+[end]
+
+
+#ENDMSG()
+
+// substring 6
+#STARTMSG(0xD1E8, 16, 2)
+
+// 　　しれいほんぶ[br]
+// 　　　かいめつ！[end]
+Command HQ destroyed!
+[end]
+
+
+#ENDMSG()
+
+// substring 7
+#STARTMSG(0xD1F8, 34, 2)
+
+// ざんねんながら・・・[br]
+// せんとう　ふかのう[br]
+// 　に　なりました・・[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 8
+#STARTMSG(0xD21A, 32, 2)
+
+// ぼうえいぐん　を[br]
+// 　　かんぜん　に[br]
+// たたき　つぶしました[end]
+The JSDF has been utterly crushed.
+[end]
+
+
+#ENDMSG()
+
+// substring 9
+#STARTMSG(0xD23A, 11, 2)
+
+// [br]
+// 　ターンオーバー[end]
+Turn Over
+[end]
+
+
+#ENDMSG()
+
+// substring 10
+#STARTMSG(0xD245, 28, 2)
+
+// 　　さくせん　は[br]
+// 　　しっぱい　に[br]
+// 　おわりました・・・[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 11
+#STARTMSG(0xD261, 20, 2)
+
+// 　　もくてき　は[br]
+// はたせません　でした[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 12
+#STARTMSG(0xD275, 30, 2)
+
+// 　ベビーゴジラ　の[br]
+// 　ぼうえい　に[br]
+// 　せいこう！[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 13
+#STARTMSG(0xD293, 31, 2)
+
+// 　ベビーゴジラ　の[br]
+// 　きゅうしゅつ　に[br]
+// 　せいこう！[end]
+Baby Godzilla has been rescued!
+[end]
+
+
+#ENDMSG()
+
+// substring 14
+#STARTMSG(0xD2B2, 35, 2)
+
+// ゴジラとの　たたかい[br]
+// は　おわったわけでは[br]
+// 　ありません・・・[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 15
+#STARTMSG(0xD2D5, 35, 2)
+
+// ベビーゴジラ　と[br]
+// いっしょ　に　うみへ[br]
+// かえりましょう・・・[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 16
+#STARTMSG(0xD2F8, 31, 2)
+
+// 　ベビーゴジラ　の[br]
+// 　ぼうえい　に[br]
+// 　しっぱい！[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 17
+#STARTMSG(0xD317, 32, 2)
+
+// 　ベビーゴジラ　の[br]
+// 　きゅうしゅつ　に[br]
+// 　しっぱい！[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 18
+#STARTMSG(0xD337, 33, 2)
+
+// 　ベビーゴジラ　が[br]
+// たすけ　を　よんで[br]
+// います・・・[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 19
+#STARTMSG(0xD358, 32, 2)
+
+// うちゅうかいじゅう[br]
+// ・・・のこる　は[br]
+// 　１たい　のみ　です[end]
+Only 1 space monster remaining.
+[end]
+
+
+#ENDMSG()
+
+// substring 20
+#STARTMSG(0xD378, 20, 2)
+
+// うちゅうかいじゅう[br]
+// 　　ぜんめつ！！[end]
+Space monsters annihilated!
+[end]
+
+
+#ENDMSG()
+
+// substring 21
+#STARTMSG(0xD38C, 30, 2)
+
+// うちゅうかいじゅう[br]
+// から　ちきゅう　を[br]
+// 　まもり　ました[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 22
+#STARTMSG(0xD3AA, 25, 2)
+
+// ゴジラの　てき　では[br]
+// なかった　ようです[end]
+It seems they were no match for Godzilla.
+[end]
+
+
+#ENDMSG()
+
+// substring 23
+#STARTMSG(0xD3C3, 21, 2)
+
+// 　スペース　ゴジラ[br]
+// 　　たおれる！！[end]
+SpaceGodzilla has been defeated!
+[end]
+
+
+#ENDMSG()
+
+// substring 24
+#STARTMSG(0xD3D8, 28, 2)
+
+// ちきゅう　ぼうえい[br]
+// 　の　にんむ　を[br]
+// 　　はたしました[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 25
+#STARTMSG(0xD3F4, 26, 2)
+
+// ぐんばい　は　ゴジラ[br]
+// 　に　あがりました[end]
+Godzilla emerged victorious.
+[end]
+
+
+#ENDMSG()
+
+// substring 26
+#STARTMSG(0xD40E, 24, 2)
+
+// 　ぼうえいぐん　の[br]
+// えんきょりこうげき！[end]
+JSDF's long-range attack!
+[end]
+
+
+#ENDMSG()
+
+// substring 27
+#STARTMSG(0xD426, 18, 2)
+
+// めいちゅう！[br]
+// 　ダメージ　[num]Ｐ[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 28
+#STARTMSG(0xD438, 18, 2)
+
+// [br]
+// ダメージをうけました[br]
+// 　　　　　[num]Ｐ[end]
+Received damage[br]
+  [num]P
+[end]
+
+
+#ENDMSG()
+
+// substring 29
+#STARTMSG(0xD44A, 13, 2)
+
+// [br]
+// 　こうげきしっぱい[end]
+Attack failed
+[end]
+
+
+#ENDMSG()
+
+// substring 30
+#STARTMSG(0xD457, 30, 2)
+
+// ぼうえいぐん[br]
+// 　ゴジラタワー　を[br]
+// 　　　せんりょう！！[end]
+JSDF has occupied Godzilla Tower!
+[end]
+
+
+#ENDMSG()
+
+// substring 31
+#STARTMSG(0xD475, 32, 2)
+
+// ぼうえいぐん　の[br]
+// 　せんりょく　が[br]
+// 　　アップ　しました[end]
+JSDF's power has increased.
+[end]
+
+
+#ENDMSG()
+
+// substring 32
+#STARTMSG(0xD495, 19, 2)
+
+// 　ゴジラタワーの[br]
+// 　　こうげき！[end]
+Godzilla Tower's attack!
+[end]
+
+
+#ENDMSG()
+
+// substring 33
+#STARTMSG(0xD4A8, 23, 2)
+
+// 　ゴジラタワー　が[br]
+// 　ほうかいしました[end]
+Godzilla Tower has collapsed.
+[end]
+
+
+#ENDMSG()
+
+// substring 34
+#STARTMSG(0xD4BF, 19, 2)
+
+// 　とちょう　が[br]
+// 　ほうかいしました[end]
+Government Office has collapsed.
+[end]
+
+
+#ENDMSG()
+
+// substring 35
+#STARTMSG(0xD4D2, 21, 2)
+
+// 　ツインタワー　が[br]
+// 　ほうかいしました[end]
+Tokyo Towers collapsed.
+//note that the original name is "Twin Towers"; they are also known as the Tokyo Towers, which I suggest using to avoid the obvious problem.
+[end]
+
+
+#ENDMSG()
+
+// substring 36
+#STARTMSG(0xD4E7, 22, 2)
+
+// 　ふくおかタワー　が[br]
+// 　ほうかいしました[end]
+Fukuoka Tower collapsed.
+[end]
+
+
+#ENDMSG()
+
+// substring 37
+#STARTMSG(0xD4FD, 34, 2)
+
+// スペースゴジラ　へ[br]
+// エネルギー　が[br]
+// おくられなくなります[end]
+SpaceGodzilla stopped absorbing energy.
+[end]
+
+
+#ENDMSG()
+
+// substring 38
+#STARTMSG(0xD51F, 21, 2)
+
+// 　テレビとう　が[br]
+// 　ほうかいしました[end]
+TV Tower collapsed.
+[end]
+
+
+#ENDMSG()
+
+// substring 39
+#STARTMSG(0xD534, 12, 2)
+
+// [br]
+// 　かいふくこうどう[end]
+Recovery
+[end]
+
+
+#ENDMSG()
+
+// substring 40
+#STARTMSG(0xD540, 25, 2)
+
+// 　たいりょく　が[br]
+// 　かいふく　しました[br]
+// 　　　　　[num]Ｐ[end]
+Health has been restored.[br]
+  [num]P
+[end]
+
+
+#ENDMSG()
+
+// substring 41
+#STARTMSG(0xD559, 21, 2)
+
+// 　はつでんしょ　が[br]
+// 　　　ばくはつ！！[end]
+Power Plant destroyed!
+[end]
+
+
+#ENDMSG()
+
+// substring 42
+#STARTMSG(0xD56E, 23, 2)
+
+// ゴジラ　の[br]
+// たいりょく　かいふく[br]
+// 　　　　　[num]Ｐ[end]
+Godzilla's health was restored.[br]
+  [num]P
+[end]
+
+
+#ENDMSG()
+
+// substring 43
+#STARTMSG(0xD585, 12, 2)
+
+// [br]
+// きち　に　はいります[end]
+Entered base
+[end]
+
+
+#ENDMSG()
+
+// substring 44
+#STARTMSG(0xD591, 28, 2)
+
+// ホキュウ　カンリョウ[br]
+// 　　まで　あと[br]
+// [num]ターン　です[end]
+Resupply complete in [num] turn(s).
+[end]
+
+
+#ENDMSG()
+
+// substring 45
+#STARTMSG(0xD5AD, 29, 2)
+
+// ふくおかタワー　より[br]
+// 　エネルギー　を[br]
+// 　きゅうしゅう[end]
+Absorbing energy from Fukuoka Tower.
+[end]
+
+
+#ENDMSG()
+
+// substring 46
+#STARTMSG(0xD5CA, 28, 2)
+
+// スペースゴジラ　の[br]
+// たいりょく　かいふく[br]
+// 　　　　　[num]Ｐ[end]
+SpaceGodzilla's health was restored.
+  [num]P
+[end]
+
+
+#ENDMSG()
+
+// substring 47
+#STARTMSG(0xD5E6, 22, 2)
+
+// へいきこうじょう　が[br]
+// 　　ばくはつ！！[end]
+Weapons Factory destroyed!
+[end]
+
+
+#ENDMSG()
+
+// substring 48
+#STARTMSG(0xD5FC, 28, 2)
+
+// かいはつちゅう　の[br]
+// 　へいき　も[br]
+// 　ゆうばくしました[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 49
+#STARTMSG(0xD618, 20, 2)
+
+// 　ほきゅうきち　が[br]
+// 　　ばくはつ！！[end]
+Supply base destroyed!
+[end]
+
+
+#ENDMSG()
+
+// substring 50
+#STARTMSG(0xD62C, 28, 2)
+
+// ほきゅうちゅう　の[br]
+// 　へいき　も[br]
+// 　ゆうばくしました[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 51
+#STARTMSG(0xD648, 20, 2)
+
+// ぼうえいぐん[br]
+// 　　ぜんめつ　か！？[end]
+Is this the end for the JSDF?!
+[end]
+
+
+#ENDMSG()
+
+// substring 52
+#STARTMSG(0xD65C, 29, 2)
+
+// 　きょうりょく　な[br]
+// 　えんぐん[br]
+// モスラ　とうじょう！[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 53
+#STARTMSG(0xD679, 19, 2)
+
+// 　きょうてき[br]
+// モスラ　とうじょう！[end]
+The formidable Mothra has appeared!
+[end]
+
+
+#ENDMSG()
+
+// substring 54
+#STARTMSG(0xD68C, 18, 2)
+
+// モスラ　が[br]
+// 　たおれました・・・[end]
+Mothra has been defeated...
+[end]
+
+
+#ENDMSG()
+
+// substring 55
+#STARTMSG(0xD69E, 20, 2)
+
+// こてい　ほうだい[br]
+// 　の　こうげき！[end]
+Fixed Artillery's attack!
+[end]
+
+
+#ENDMSG()
+
+// substring 56
+#STARTMSG(0xD6B2, 20, 2)
+
+// こてい　ほうだい[br]
+// が　ばくはつ！[end]
+Fixed Artillery destroyed!
+[end]
+
+
+#ENDMSG()
+
+// substring 57
+#STARTMSG(0xD6C6, 27, 2)
+
+// 　　メカギドラ[br]
+// 　かんせい　まで[br]
+// 　あと[num]ターン[end]
+Mecha-Ghidorah completed in [num] turns.
+[end]
+
+
+#ENDMSG()
+
+// substring 58
+#STARTMSG(0xD6E1, 23, 2)
+
+// 　メカギドラ　が[br]
+// かんせいしました！！[end]
+Mecha-Ghidorah is complete!
+[end]
+
+
+#ENDMSG()
+
+// substring 59
+#STARTMSG(0xD6F8, 23, 2)
+
+// しゅつげき　じゅんび[br]
+// 　　かんりょう！！[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 60
+#STARTMSG(0xD70F, 24, 2)
+
+// 　きょうてき[br]
+// 　　メカギドラ[br]
+// 　　　とうじょう[end]
+The formidable Mecha-King Ghidorah has appeared.
+[end]
+
+
+#ENDMSG()
+
+// substring 61
+#STARTMSG(0xD727, 23, 2)
+
+// メカギドラ　が[br]
+// ばくはつしました！！[end]
+Mecha-King Ghidorah has been destroyed!
+[end]
+
+
+#ENDMSG()
+
+// substring 62
+#STARTMSG(0xD73E, 24, 2)
+
+// 　　モゲラ[br]
+// 　かんせい　まで[br]
+// 　あと[num]ターン[end]
+MOGUERA completed in [num] turns.
+[end]
+
+
+#ENDMSG()
+
+// substring 63
+#STARTMSG(0xD756, 20, 2)
+
+// 　モゲラ　が[br]
+// かんせいしました！！[end]
+MOGUERA is complete!
+[end]
+
+
+#ENDMSG()
+
+// substring 64
+#STARTMSG(0xD76A, 21, 2)
+
+// 　きょうてき[br]
+// 　　モゲラ[br]
+// 　　　とうじょう[end]
+The formidable MOGUERA has appeared.
+[end]
+
+
+#ENDMSG()
+
+// substring 65
+#STARTMSG(0xD77F, 21, 2)
+
+// 　モゲラ　が[br]
+// ばくはつしました！！[end]
+MOGUERA has been destroyed!
+[end]
+
+
+#ENDMSG()
+
+// substring 66
+#STARTMSG(0xD794, 27, 2)
+
+// 　　メカゴジラ[br]
+// 　かんせい　まで[br]
+// 　あと[num]ターン[end]
+Mechagodzilla completed in [num] turns.
+[end]
+
+
+#ENDMSG()
+
+// substring 67
+#STARTMSG(0xD7AF, 23, 2)
+
+// 　メカゴジラ　が[br]
+// かんせいしました！！[end]
+Mechagodzilla is complete!
+[end]
+
+
+#ENDMSG()
+
+// substring 68
+#STARTMSG(0xD7C6, 24, 2)
+
+// 　きょうてき[br]
+// 　　メカゴジラ[br]
+// 　　　とうじょう[end]
+The formidable Mechagodzilla has appeared.
+[end]
+
+
+#ENDMSG()
+
+// substring 69
+#STARTMSG(0xD7DE, 24, 2)
+
+// 　メカゴジラ　が[br]
+// ばくはつしました！！[end]
+Mechagodzilla has been destroyed!
+[end]
+
+
+#ENDMSG()
+
+// substring 70
+#STARTMSG(0xD7F6, 28, 2)
+
+// 　メカゴジラ[br]
+// 　　ガルーダ　と[br]
+// 　　　がったい！！[end]
+Mechagodzilla has combined with Garuda!
+[end]
+
+
+#ENDMSG()
+
+// substring 71
+#STARTMSG(0xD812, 22, 2)
+
+// スーパーメカゴジラ[br]
+// 　　とうじょう！[end]
+Super-Mechagodzilla has appeared!
+[end]
+
+
+#ENDMSG()
+
+// substring 72
+#STARTMSG(0xD828, 28, 2)
+
+// 　きょうてき[br]
+// スーパーメカゴジラ[br]
+// 　　　とうじょう[end]
+The formidable Super-Mechagodzilla has appeared.
+[end]
+
+
+#ENDMSG()
+
+// substring 73
+#STARTMSG(0xD844, 25, 2)
+
+// Ｓ・メカゴジラ　が[br]
+// ばくはつしました！！[end]
+Super-Mechagodzilla has been destroyed!
+[end]
+
+
+#ENDMSG()
+
+// substring 74
+#STARTMSG(0xD85D, 14, 2)
+
+// [br]
+// ・・ラドンが？・・・[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 75
+#STARTMSG(0xD86B, 36, 2)
+
+// ラドンの　し　により[br]
+// スーパーゴジラ　へ[br]
+// 　　　パワーアップ！[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 76
+#STARTMSG(0xD88F, 29, 2)
+
+// 　オキシジェン・Ｄ[br]
+// 　かんせい　まで[br]
+// 　あと[num]ターン[end]
+Oxygen Destroyer completed in [num] turns.
+[end]
+
+
+#ENDMSG()
+
+// substring 77
+#STARTMSG(0xD8AC, 24, 2)
+
+// オキシジェン・Ｄ　が[br]
+// かんせいしました！！[end]
+Oxygen Destroyer is complete!
+[end]
+
+
+#ENDMSG()
+
+// substring 78
+#STARTMSG(0xD8C4, 28, 2)
+
+// ゴジラ　を　たおす[br]
+// さいしゅう　へいき[br]
+// です！！[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 79
+#STARTMSG(0xD8E0, 32, 2)
+
+// ぼうえいぐん　は[br]
+// さいしゅう　へいき[br]
+// を　てに　いれました[end]
+The JSDF has acquired its ultimate weapon.
+[end]
+
+
+#ENDMSG()
+
+// substring 80
+#STARTMSG(0xD900, 29, 2)
+
+// 　オキシジェン・Ｄ[br]
+// 　ゴジラ　に[br]
+// 　　めいちゅう！！[end]
+Oxygen Destroyer fired upon Godzilla!
+[end]
+
+
+#ENDMSG()
+
+// substring 81
+#STARTMSG(0xD91D, 27, 2)
+
+// ゴジラ　に[br]
+// 　ちめいてき　な[br]
+// 　　ダメージ！！[end]
+Godzilla was mortally wounded!
+[end]
+
+
+#ENDMSG()
+
+// substring 82
+#STARTMSG(0xD938, 28, 2)
+
+// 　[name]　が[br]
+// 　ベビーゴジラ　を[br]
+// 　もっています[end]
+[name] is carrying Baby Godzilla.
+[end]
+
+
+#ENDMSG()
+
+// substring 83
+#STARTMSG(0xD954, 30, 2)
+
+// 　[name]　が[br]
+// 　ベビーゴジラ　を[br]
+// 　てにいれました！[end]
+[name] has taken possession of Baby Godzilla!
+[end]
+
+
+#ENDMSG()
+
+// substring 84
+#STARTMSG(0xD972, 21, 2)
+
+// アンギラス　が[br]
+// 　たおれました・・・[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 85
+#STARTMSG(0xD987, 22, 2)
+
+// ガルーダ　が[br]
+// ばくはつしました！！[end]
+Garuda has been destroyed!
+[end]
+
+
+#ENDMSG()
+
+// substring 86
+#STARTMSG(0xD99D, 19, 2)
+
+// がったいふかのう　と[br]
+// 　なりました[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 87
+#STARTMSG(0xD9B0, 37, 2)
+
+// しかし　ベビーゴジラ[br]
+// の　ぼうえい　は[br]
+// 　できませんでした[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 88
+#STARTMSG(0xD9D5, 38, 2)
+
+// しかし　ベビーゴジラ[br]
+// の　きゅうしゅつ　は[br]
+// 　できませんでした[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 89
+#STARTMSG(0xD9FB, 21, 2)
+
+// 　ゆそうかん　が[br]
+// 　ばくはつしました[end]
+Transport Ship has been destroyed.
+[end]
+
+
+#ENDMSG()
+
+// substring 90
+#STARTMSG(0xDA10, 21, 2)
+
+// 　ゆそうヘリ　が[br]
+// 　ばくはつしました[end]
+Transport Copter has been destroyed.
+[end]
+
+
+#ENDMSG()
+
+// substring 91
+#STARTMSG(0xDA25, 31, 2)
+
+// オキシジェン・Ｄ　の[br]
+// しようが　ふかのう[br]
+// に　なりました[end]
+//*WIP*
+
+[end]
+
+
+#ENDMSG()
+
+// substring 92
+#STARTMSG(0xDA44, 33, 2)
+
+// 　ゆそうかん　に[br]
+// オキシジェン・Ｄ　が[br]
+// とうさい　されました[end]
+The transport ship has been loaded with the Oxygen Destroyer.
+[end]
+
+
+#ENDMSG()
+

@@ -1,0 +1,664 @@
+//=======================================
+// compendium pages
+//=======================================
+
+#SETSIZE(72, 6)
+
+// tilemap 0
+#STARTMSG(0x77486, 60, 2)
+
+// 　　　　　　　　　　
+// 　　゛　　　　　　　
+// かいしゅうおう　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+King of the Monsters
+[end]
+
+
+#ENDMSG()
+
+// tilemap 1
+#STARTMSG(0x774C2, 60, 2)
+
+// [B3][B4][B5][B6]　　　　　　
+// 　　　　　　　　　　
+// かえんほうしゃ　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+Ability[br]
+[br]
+ Atomic Breath
+[end]
+
+
+#ENDMSG()
+
+// tilemap 2
+#STARTMSG(0x774FE, 60, 2)
+
+// 　　　　　゛　　　゛
+// かくへいきか　うんた
+// 　　　　　　　　　　
+// きょうい　の　　　　
+// ゛　　　゛　　　　　
+// たいかいしゅう　　　
+// 
+A terrible monster born from misuse of nuclear energy.
+[end]
+
+
+#ENDMSG()
+
+#BREAK()
+
+// tilemap 3
+#STARTMSG(0x7753A, 60, 2)
+
+// 　　　　　　　　　　
+// 　　゛　　　　　　　
+// かいしゅうおう　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+King of the Monsters
+[end]
+
+
+#ENDMSG()
+
+// tilemap 4
+#STARTMSG(0x77576, 60, 2)
+
+// [B3][B4][B5][B6]　　　　　　
+// 　　　　　　　゜　　
+// ウラニウムハイハー　
+// ねっせん　　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+Ability[br]
+[br]
+ Hyper Uranium[br]
+  Heat Ray
+[end]
+
+
+#ENDMSG()
+
+// tilemap 5
+#STARTMSG(0x775B2, 60, 2)
+
+// 　　　　　　゛　　　
+// ファイヤーラトンと　
+// ゛　　　　　　　　　
+// かったい　して　　　
+// 　　　　　　　゛゛　
+// つよくなった　コシラ
+// 
+//A stronger Godzilla after merging with Fire Rodan.
+Godzilla, stren-[br]
+gthened by[br]
+merging with[br]
+Fire Rodan.
+[end]
+
+
+#ENDMSG()
+
+#BREAK()
+
+// tilemap 6
+#STARTMSG(0x775EE, 60, 2)
+
+// 　　　　　　　　　　
+// ゛　　　　　　゛　　
+// ほうりゅうかいしゅう
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+Fierce Dragon Monster
+[end]
+
+
+#ENDMSG()
+
+// tilemap 7
+#STARTMSG(0x7762A, 60, 2)
+
+// [B3][B4][B5][B6]　　　　　　
+// 　　　　　　　　　　
+// たいあたり　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+Ability[br]
+[br]
+ Charge
+[end]
+
+
+#ENDMSG()
+
+// tilemap 8
+#STARTMSG(0x77666, 60, 2)
+
+// 　　　　　　　　　゛
+// アンキロサウルス　か
+// 　　゛　゛　　　　゛
+// すいはくしっけん　て
+// 　　゛　　　　　　　
+// とつせんへんい　　　
+// 
+An Ankylosaur-[br]
+us mutated due[br]
+to nuclear[br]
+testing.
+[end]
+
+
+#ENDMSG()
+
+#BREAK()
+
+// tilemap 9
+#STARTMSG(0x776A2, 60, 2)
+
+// 　　　　　　　　　　
+// 　　　゛　　　゛　　
+// そらのたいかいしゅう
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+Giant Monster of the Sky
+[end]
+
+
+#ENDMSG()
+
+// tilemap 10
+#STARTMSG(0x776DE, 60, 2)
+
+// [B3][B4][B5][B6]　　　　　　
+// 　　　　　　　　　　
+// ウラニウムねっせん　
+// 　　゛　　　　　　　
+// くちはし　たいあたり
+// 　　　　　　　　　　
+// 
+Abilities[br]
+ Uranium Heat[br]
+  Ray[br]
+ Beak Charge
+[end]
+
+
+#ENDMSG()
+
+// tilemap 11
+#STARTMSG(0x7771A, 60, 2)
+
+// 　゛　゛゜　　　　゜
+// ラトンかハワーアッフ
+// 　　　　゛゛　　　　
+// あかい　ホティーから
+// 　　　　　　　　゛　
+// ねっせんを　はきたす
+// 
+Rodan's enhan-[br]
+ced form. Emits[br]
+heat rays from[br]
+its red body.
+[end]
+
+
+#ENDMSG()
+
+#BREAK()
+
+// tilemap 12
+#STARTMSG(0x77756, 60, 2)
+
+// 　　　　　　　　　　
+// 　　　　　　゛　　　
+// うちゅうかいしゅう　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+Space Monster
+[end]
+
+
+#ENDMSG()
+
+// tilemap 13
+#STARTMSG(0x77792, 60, 2)
+
+// [B3][B4][B5][B6]　　　　　　
+// 　　　　　　　　　　
+// いんりょくこうせん　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+Ability[br]
+[br]
+ Gravity Beam
+[end]
+
+
+#ENDMSG()
+
+// tilemap 14
+#STARTMSG(0x777CE, 60, 2)
+
+// ゛　　　　　　　　　
+// せんうちゅう　を　　
+// 　　　　　　゛　　　
+// はかいする　しゃあく
+// 　　　　　　　　　　
+// の　しょうちょう　　
+// 
+The emblem of[br]
+evil who aims[br]
+to destroy the[br]
+entire universe.
+[end]
+
+
+#ENDMSG()
+
+#BREAK()
+
+// tilemap 15
+#STARTMSG(0x7780A, 60, 2)
+
+// 　　　　　　　　　　
+// 　　゛　゛　　゛　　
+// サイホークかいしゅう
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+Cyborg Monster
+[end]
+
+
+#ENDMSG()
+
+// tilemap 16
+#STARTMSG(0x77846, 60, 2)
+
+// [B3][B4][B5][B6]　　　　　　
+// 　　゛　　　　　　　
+// レーサーこうせん　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+Ability[br]
+[br]
+ Laser Beam
+[end]
+
+
+#ENDMSG()
+
+// tilemap 17
+#STARTMSG(0x77882, 60, 2)
+
+// 　　　　　　　　　　
+// ハンターせいうん　　
+// 　　　゛　　　　　　
+// Ｍせいしんの　　　　
+// 　　゛　゛　　゛　　
+// サイホークかいしゅう
+// 
+A cyborg mon-[br]
+ster created[br]
+by the M Space[br]
+Hunter Nebula[br]
+Aliens.
+[end]
+
+
+#ENDMSG()
+
+#BREAK()
+
+// tilemap 18
+#STARTMSG(0x778BE, 60, 2)
+
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// はかいしん　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+God of Destruction
+[end]
+
+
+#ENDMSG()
+
+// tilemap 19
+#STARTMSG(0x778FA, 60, 2)
+
+// [B3][B4][B5][B6]　　　　　　
+// 　　　゛　　　　　　
+// コロナヒーム　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+Ability[br]
+[br]
+ Corona Beam
+[end]
+
+
+#ENDMSG()
+
+// tilemap 20
+#STARTMSG(0x77936, 60, 2)
+
+// 　　　　　　　゛　　
+// うちゅうエネルキーを
+// 　　　　　　　　　　
+// きゅうしゅう　　　　
+// ゜　　　　　゛　゛　
+// ハワーは　むけんたい
+// 
+It can absorb endless amounts of energy from space.
+[end]
+
+
+#ENDMSG()
+
+#BREAK()
+
+// tilemap 21
+#STARTMSG(0x77972, 60, 2)
+
+// 　　　　　　　　　　
+// 　　゛　　　　　　　
+// きょたい　　　　　　
+// ゛　　　゛　　　　　
+// カ　かいしゅう　　　
+// 　　　　　　　　　　
+// 
+Giant Moth Monster
+[end]
+
+
+#ENDMSG()
+
+// tilemap 22
+#STARTMSG(0x779AE, 60, 2)
+
+// [B3][B4][B5][B6]　　　　　　
+// 　　　　　゜゛　　　
+// ちょうおんはヒーム　
+// ゛　　　゜　　　　　
+// とくりんふん　　　　
+// 　　　　　　　　　　
+// 
+Abilities[br]
+ Ultrasound[br]
+  Beam[br]
+ Poison Scales
+[end]
+
+
+#ENDMSG()
+
+// tilemap 23
+#STARTMSG(0x779EA, 60, 2)
+
+// 　　　　　　　　　　
+// インファントとう　の
+// 　　゛　　　　　　　
+// しゅこしん　　　　　
+// 　　　　　　　　　　
+// へいわ　を　あいする
+// 
+The peace-[br]
+loving guardian[br]
+of Infant[br]
+Island.
+[end]
+
+
+#ENDMSG()
+
+#BREAK()
+
+// tilemap 24
+#STARTMSG(0x77A26, 60, 2)
+
+// 　　　　　　　　　　
+// 　　　　　゛　　　　
+// みらいせいふつへいき
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+Future Weapon
+[end]
+
+
+#ENDMSG()
+
+// tilemap 25
+#STARTMSG(0x77A62, 60, 2)
+
+// [B3][B4][B5][B6]　　　　　　
+// 　　　　　　　　　　
+// いんりょくこうせん　
+// 　　　　　゛　　　　
+// マシンハント　　　　
+// 　　　　　　　　　　
+// 
+Abilities[br]
+[br]
+ Gravity Beam[br]
+ Machine Hand
+[end]
+
+
+#ENDMSG()
+
+// tilemap 26
+#STARTMSG(0x77A9E, 60, 2)
+
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// ２３せいき　の　　　
+// 　　゛　゛　　゛　　
+// サイホークかいしゅう
+// 　　　　　　　　　　
+// 
+A cyborg monster from the 23rd century.
+[end]
+
+
+#ENDMSG()
+
+#BREAK()
+
+// tilemap 27
+#STARTMSG(0x77ADA, 60, 2)
+
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 　　　　　゜　　　　
+// ニュータイフ　　　　
+// 　　　　　゛゛　　　
+// 　　　メカコシラ　　
+// 
+New-type Mechagodzilla
+[end]
+
+
+#ENDMSG()
+
+// tilemap 28
+#STARTMSG(0x77B16, 60, 2)
+
+// 　　　　　　　　　　
+// [B3][B4][B5][B6]　　　　　　
+// 　゛゛　　　　　　　
+// メカハスター　　　　
+// 　　　　　　　　　　
+// Ｇクラッシャー　　　
+// 
+Abilities[br]
+[br]
+ Mega Buster[br]
+ G-Crusher
+[end]
+
+
+#ENDMSG()
+
+// tilemap 29
+#STARTMSG(0x77B52, 60, 2)
+
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// たいＧへいき　の　　
+// 　゛　　゛゛　　　゛
+// ロホットきしゅつ　か
+// 　　　　　　　　　　
+// 
+The Anti-[br]
+Godzilla Weapon,[br]
+culmination of[br]
+robotic engi-[br]
+neering.
+[end]
+
+
+#ENDMSG()
+
+#BREAK()
+
+// tilemap 30
+#STARTMSG(0x77B8E, 60, 2)
+
+// ここに　しゅうけつ　
+// 　　　　　　　　　　
+// 　　　　　゜　　　　
+// ニュータイフ　　　　
+// 　　　　　゛゛　　　
+// 　　　メカコシラ　　
+// 
+New-type Mechagodzilla
+[end]
+
+
+#ENDMSG()
+
+// tilemap 31
+#STARTMSG(0x77BCA, 60, 2)
+
+// 　　　　　　　　　　
+// [B3][B4][B5][B6]　　　　　　
+// ゛　　　　　　　　　
+// ヒームきゅうしゅう　
+// ゜　゛　゛　　　゛　
+// フラスマクレネート　
+// 
+Abilities[br]
+ Beam Absorp-[br]
+  tion[br]
+ Plasma Grenade
+[end]
+
+
+#ENDMSG()
+
+// tilemap 32
+#STARTMSG(0x77C06, 60, 2)
+
+// 　　　　　　　　　　
+// ゛　　゛　　　　　　
+// カルータとの　　　　
+// ゛　　　　　　　　　
+// かったい　により　　
+// 　゛　　　゛　　　゜
+// 
+Its mobility[br]
+has increased[br]
+after combining[br]
+with Garuda.
+[end]
+
+
+#ENDMSG()
+
+#BREAK()
+
+// tilemap 33
+#STARTMSG(0x77C42, 60, 2)
+
+// きとうせいか　アッフ
+// 　　　　　　　　　　
+// 　゛　　　　　　　　
+// きとうへいき　　　　
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// 
+Mobile Weapon
+[end]
+
+
+#ENDMSG()
+
+// tilemap 34
+#STARTMSG(0x77C7E, 60, 2)
+
+// 　　　　　　　　　　
+// [B3][B4][B5][B6]　　　　　　
+// 　゛　　　゛　　　　
+// Ｓクレネートミサイル
+// 　　　　　　　　　　
+// メーサーキャノン　　
+// 
+Abilities[br]
+ Spiral Grenade[br]
+  Missiles[br]
+ Maser Cannon
+[end]
+
+
+#ENDMSG()
+
+// tilemap 35
+#STARTMSG(0x77CBA, 60, 2)
+
+// 　　　　　　　　　　
+// 　　　　　　　　　　
+// りく・そら・ちてい・
+// 　　　　　゛　　　　
+// うちゅう　ての　　　
+// 　　゛　　　　　　　
+// 
+Capable of operating on land, sky, underground, and even space.
+[end]
+
+
+#ENDMSG()
+
+#BREAK()
+

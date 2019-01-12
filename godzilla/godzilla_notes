@@ -1,0 +1,197 @@
+
+routines:
+  0006: useJumpTable
+        A = index
+        HL = table
+  02AA: waitFrames
+        B = frame count
+  042E: ?
+  0432: decmpGraphicSet
+        HL = list pointer
+             1b count of entries,
+             then pointers to decompression parameters.
+             each pointer points to a struct of the format:
+               * 1b banknum
+               * 2b VDP dstaddr
+               * 2b src pointer
+  0455: decmpGraphic
+  08BE: sendTilemapToAbsoluteVdpAddr
+        BC = W/H
+        DE = src
+        HL = VDP dstaddr
+  08ED: sendHalfTilemapToAbsoluteVdpAddr
+        A  = high byte of tilemap
+        BC = W/H
+        DE = src
+        HL = VDP dstaddr
+  0937: sendTilemapToLoopedVdpAddr
+        BC = W/H
+        DE = src
+        HL = VDP dstaddr
+  0976: sendTilemapToLoopedVdpAddrSafe
+  0A64: sendRawTilesToVdp
+        B  = number of tiles
+        DE = src data pointer
+        HL = VDP dstaddr
+  0A75: sendReversedRawTilesToVdp
+        B  = number of tiles
+        DE = src data pointer
+        HL = VDP dstaddr
+  0C1B: sendFontTileStringToVdp
+        sends 1bpp (font) tile data to VDP based on a string
+        A  = low 5 bits: src tile data bank
+             bit 7: if set, interrupts must be disabled during transfer
+        BC = pointer to list of source tile indices,
+             terminated with FF
+        DE = VDP dstaddr
+        HL = src tile data base pointer
+  0C66: sendFontTilesToVdp
+  0C73: sendFontTileToVdpAddrSafe
+        (disables interrupts)
+  0C79: sendFontTileToVdpAddr
+        DE = VDP address
+        HL = srcptr
+  0C7F: sendFontTileToVdp
+        HL = srcptr
+  0C97: bcdConv4Digit
+  0CB8: bcdConv3Digit
+        B = hundreds
+        C = tens
+        A = ones
+  13F3: do kanji "spray-in" effect for completed level
+  
+  ~182C: draw names on battle screen?
+  
+  4E16: convert absolute to local coordinates??
+  
+  5964: openWindow
+        BC = W/H
+        DE = srcaddr
+        HL = VDP dst
+  59E1: closeWindow
+  
+  6235: openUnitInfoWindow
+  62D6: openRemainingTurnWindow
+  
+  C864: show dialogue message
+  CA24: load font characters for dialogue message?
+  CA4E: compose dialogue box tilemap, including message?
+  CC23: openBaseDialogueBox?
+  
+  682EF: redraw unit on stage overview window?
+
+data:
+  8F19: turn change confirm window tilemap
+  8FE1: remaining turn window base tilemap (8x3, 0x30 bytes)
+  9001: unit info window base tilemap (12x4, 0x60 bytes)
+  91E0: table of diacritics for unit names in unit status window
+        91E0-924D: lookup table by unit ID
+        924E-92CE: diacritic strings
+                   00 = skip
+                   FF = terminator
+                   anything else = target tile index for top window border
+  C003: 1bpp font, 0xA4 characters
+  C461: count of missions cleared with "medal" objectives?
+        must be 4 for final mission (see 43C17)
+  C46E: player faction
+        00 = g-force
+        nonzero = godzilla
+  C5E9: unit names for unit status window, diacritics omitted, 9b each
+        each byte is a raw index into the C003 1bpp font with an FF terminator
+        content padded to 8 bytes with spaces
+        diacritics are added separately using table at 91E0
+  
+  D089: dialogue message string data
+        D089-D142 = pointer table
+        D143+ = strings
+  
+  33EC7: compressed graphics for compendium kanji
+  
+  68F2D: table of diacritics for unit names on stage overview
+         same format as 91E0
+  68FAE: unit names for stage overview screen, diacritics omitted
+         fixed 8b (no terminators)
+  
+memory:
+  C108: ? e.g. CF when sending window nametable?
+        see 59C7
+  C2D2: high bit clear = interrupts disabled?
+        can transfer to VDP without disabling interrupts?
+  C2D8: count of open windows?
+  C2D9: address of storage position for current highest open window
+  C461: ?
+  C466: ?
+  C46D: ID of side currently taking turn
+        00 = g-force
+        01 = godzilla
+        02 = space monsters
+  C46E: ID of side controlled by player
+        00 = g-force
+        01 = godzilla
+  C46F: remaining turn count
+  C50C: "auto" setting -- if nonzero, game automatically jumps cursor to next
+        unit after current one's turn is over
+  C520: number displayed by op F8 (num)
+  C524: ?
+  C525: font VDP putaddr?
+  C527: ?
+  C52A: ? message ID pointer??
+  C52C: ?
+  C650: levels cleared (zero if not cleared, AND 0x10 nonzero if medal?)
+  D401-D402: camera upper-left pixel Y?
+  D404-D405: camera upper-left pixel X?
+    * these are in-game only, not e.g. intro or battle
+  D700, D800, ...:
+        temporary storage for tilemaps covered by open windows
+        each window gets 0x100 bytes of storage
+  DE00: used to compose tilemaps for e.g. windows?
+  DFE4: ?
+  DFE5: ?
+
+~3CE7E = ? intro
+
+intro tilemap lists (pointers written to D223).
+each entry points to a standard horizontally-formatted half-width tilemap
+with a size of 32x6 tiles (less for the final pad-out entry).
+  scroll 1: 3E78C
+    3E790
+    3ECE4 -- this is blank and used to pad out the graphics as they scroll
+             off screen
+  scroll 2: 3E850
+    3E854
+    3ECE4
+  scroll 3: 3E914
+    3E91A
+    3E9DA
+    3ECE4
+  scroll 4: 3EA9A
+    3EA9E
+    3ECE4
+  scroll 5: 3EB5E
+    3EB64
+    3EC24
+    3ECE4
+
+intro:
+  D111 = scrolling text flag
+         00 or bit 7 set if not active?
+  D117 = pixel scroll offset
+  D223 = pointer to list of intro tilemaps
+  
+3DD3C = setUpIntroScrollSet
+        HL = tilemap list pointer
+        
+mission intro:
+  D216 = subpage?
+  D217 = subpage text index table pointer
+
+
+todo
+  * implement num/name opcodes for new printing system
+  * right border composition (strategy mode only?)
+  * std text at ~43f00: ... チャレンシしよう！！
+  * credits at ~2c940
+  * 補給完了 = Resupply Complete
+  * 6849C = strategy overview monster countdown messages
+
+

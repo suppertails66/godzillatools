@@ -1,0 +1,50 @@
+//=======================================
+// must destroy space monsters message
+//=======================================
+
+#SETSIZE(144, 8)
+
+// tilemap 0
+#STARTMSG(0x6948F, 144, 2)
+
+// ゛゛　　　　　　　　゛　゛　　　　　
+// コシラは　たおせたのてすか　うちゅう
+// 　　゛　　　　　　　　　　　　　　　
+// かいしゅうを　のこしてしまいました　
+// ゛　　　゛　　　　　　　　　　゛　　
+// ほうえいくん　は　うちゅうかいしゅう
+// 　　　　　　　　　　　　　　　　　　
+// に　たちむかえるのか・・・・？　　　
+// 
+Though Godzilla was defeated,[br]
+[br]
+the Space Monsters remain. Can[br]
+[br]
+the JSDF fight them as well...?
+[end]
+
+#ENDMSG()
+#BREAK()
+
+// tilemap 1
+#STARTMSG(0x6951F, 144, 2)
+
+// ゛　　　゛　　　　　　　　゛　゛　　
+// ほうえいくんは　たおせたのてすか　　
+// 　　　　　　゛　　　　　　　　　　　
+// うちゅうかいしゅうを　のこして　　　
+// 　　　　　　　゛゛　　　　　　　　　
+// しまいました　コシラは　うちゅう　　
+// 　　゛　　　　　　　　　　　　　　　
+// かいしゅうに　たちむかえるのか・・？
+// 
+Though the JSDF was defeated,[br]
+[br]
+the Space Monsters remain. Can[br]
+[br]
+Godzilla fight them as well...?
+[end]
+
+#ENDMSG()
+#BREAK()
+

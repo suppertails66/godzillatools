@@ -1,0 +1,570 @@
+	intro scrolling text
+	
+ゴジラ上陸
+Godzilla is ashore
+
+緊急指命
+Emergency orders
+
+上陸を阻止せよ！
+Prevent its approach!
+
+救出せよ！！
+Save Japan!
+//not literal, but "Rescue!" as an order is awkward
+
+Ｇ－ＦＯＲＣＥ出撃！！
+Deploy the G-FORCE!
+
+	menu
+	
+かいじゅう　ずかん
+Monster Compendium
+
+	Compendium
+	
+ゴジラ大図鑑
+Godzilla Compendium
+
+身長
+Height
+
+体重
+Weight
+
+万
+0k (it stands for 10000, so if the compendium shows "6.0万t", it means 60000t)
+
+ゴジラ
+Godzilla
+
+スーパーゴジラ
+Super Godzilla
+
+アンギラス
+Anguirus
+
+ファイヤーラドン
+Fire Rodan
+
+キングギドラ
+King Ghidorah
+
+ガイガン
+Gigan
+
+スペースゴジラ
+SpaceGodzilla
+
+モスラ
+Mothra
+
+メカギドラ
+Mecha-King Ghidorah
+
+メカゴジラ
+Mechagodzilla
+
+スーパーメカゴジラ
+Super-Mechagodzilla
+
+モゲラ
+MOGUERA
+
+	in-game
+	
+ＣＰＵのターンです
+CPU's turn
+
+あなたのターンです
+Your turn
+
+うちゅうかいじゅうのターンです
+Space Monsters' turn
+
+チェンジ
+さくせん
+ＳＡＶＥ
+ＬＯＡＤ
+Change
+Strategy
+SAVE
+LOAD
+
+ＳＡＶＥしますか？
+いいえ　はい
+Save?
+No Yes
+
+ＳＡＶＥしました
+Saved.
+
+のこり(number)ターン
+(number) turns left
+
+のこり(number)
+Steps:(number)
+
+ぼうえいぐん　の
+えんきょりこうげき！
+JSDF's long-range attack!
+
+ゴジラタワーの
+こうげき！
+Godzilla Tower's attack!
+
+きち　に　はいります
+Entered base
+
+ホチュウ　カンリョウ
+まで　あと
+(number)ターン　です
+Resupply
+complete in
+(number) turn(s).
+
+ぼうえいぐん
+ゴジラタワー　を
+せんりょう！！
+JSDF has
+occupied
+Godzilla Tower!
+
+ぼうえいぐん　の
+せんりょく　が
+アップ　しました
+JSDF's
+power has
+increased.
+
+かいふくこうどう
+Recovery
+
+たいりょく　が
+かいふく　しました
+Health has
+been restored.
+
+ほきゅうきち　が
+ばくはつ！！
+Supply base
+destroyed!
+
+ダメージをうけました
+Received damage
+
+こうげきしっぱい
+Attack failed
+
+こうげき
+しゅうりょう
+Attack
+End
+
+補給完了
+Resupply Complete
+
+ゴジラ　たおれる！
+Godzilla defeated!
+
+てきの　せんりょくを
+あまく　みていた
+ようです・・・
+It seems you've
+underestimated
+the enemy...
+
+うちゅうかいじゅう
+・・・のこる　は
+１たい　のみ　です
+Only 1
+space monster
+remaining.
+
+ゴジラタワー　が
+ほうかいしました
+Godzilla Tower
+has collapsed.
+
+こてい　ほうだい
+の　こうげき！
+Fixed Artillery's
+attack!
+
+こてい　ほうだい
+が　ばくはつ！
+Fixed Artillery
+destroyed!
+
+メカギドラ
+かんせい　まで
+あと　１０ターン
+Mecha-Ghidorah
+completed in
+(number) turns.
+
+とちょう　が
+ほうかいしました。
+Government Office
+has collapsed.
+
+はつでんしょ　が
+ばくはつ！！
+Power Plant
+destroyed!
+
+ゴジラ　の
+たいりょく　かいふく
+Godzilla's health
+restored.
+
+ぼうえいぐん
+ぜんめつ　か！？
+Is this the end
+for the JSDF?!
+
+きょうてき
+モスラ　とうじょう！
+The formidable
+Mothra has appeared!
+
+メカギドラ　が
+かんせいしました！！
+Mecha-Ghidorah
+is complete!
+
+きょうてき
+メカギドラ
+とうじょう
+The formidable
+Mecha-King Ghidorah
+has appeared.
+
+モスラ　が
+たおれました・・・
+Mothra has been
+defeated...
+
+へいきこうじょう　が
+ばくはつ！！
+Weapons Factory
+destroyed!
+
+しれいほんぶ
+かいめつ！
+Command HQ
+destroyed!
+
+ラドン　が
+ベビーゴジラ　を
+てにいれました！
+Radon has taken
+possession of
+Baby Godzilla!
+
+ラドン　が
+ベビーゴジラ　を
+もっています
+Radon is
+carrying
+Baby Godzilla.
+
+ツインタワー　が
+ほうかいしました
+Tokyo Towers
+collapsed.
+//note that the original name is "Twin Towers"; they are also known as the Tokyo Towers, which I suggest using to avoid the obvious problem.
+
+メカゴジラ
+かんせい　まで
+あと　１０ターン
+Mechagodzilla
+completed in
+(number) turns.
+
+メカゴジラ　が
+かんせいしました！！
+Mechagodzilla
+is complete!
+
+きょうてき
+メカゴジラ
+とうじょう
+The formidable
+Mechagodzilla
+has appeared.
+
+メカゴジラ
+ガルーダ　と
+がったい！！
+Mechagodzilla
+has combined
+with Garuda!
+
+きょうてき
+スーパーメカゴジラ
+とうじょう
+The formidable
+Super-Mechagodzilla
+has appeared.
+
+Ｓ．メカゴジラ　が
+ばくはつしました！！
+Super-Mechagodzilla
+has been destroyed!
+
+ベビーゴジラ　の
+きゅうしゅつ　に
+せいこう！
+Baby Godzilla
+has been
+rescued!
+
+モゲラ
+かんせい　まで
+あと　１０ターン
+MOGUERA
+completed in
+(number) turns.
+
+ふくおかタワー　より
+エネルギー　を
+きゅうしゅう
+Absorbing
+energy from
+Fukuoka Tower.
+
+スペースゴジラ　の
+たいりょく　かいふく
+SpaceGodzilla's
+health restored.
+
+ふくおかタワー　が
+ほうかいしました
+Fukuoka Tower
+collapsed.
+
+スペースゴジラ　へ
+エネルギー　が
+おくられなくなります
+SpaceGodzilla
+stopped absorbing
+energy.
+
+モゲラ　が
+かんせいしました！！
+MOGUERA
+is complete!
+
+きょうてき
+モゲラ
+とうじょう
+The formidable
+MOGUERA
+has appeared.
+
+スペース　ゴジラ
+たおれる！！
+SpaceGodzilla
+has been defeated!
+
+オキシジェン・Ｄ　が
+かんせいしました！！
+Oxygen Destroyer
+is complete!
+
+ぼうえいぐん　は
+さいしゅう　へいき
+を　てに　いれました
+The JSDF has
+acquired its
+ultimate weapon.
+
+ゆそうかん　に
+オキシジェン・Ｄ　が
+とうさい　されました
+The transport ship
+has been loaded with
+the Oxygen Destroyer.
+
+テレビとう　が
+ほうかいしました
+TV Tower
+collapsed.
+
+オキシジェン・Ｄ
+ゴジラ　に
+めいちゅう！！
+Oxygen Destroyer
+fired upon
+Godzilla!
+
+ゴジラ　に
+ちめいてき　な
+ダメージ
+Godzilla was
+mortally
+wounded!
+
+ぐんばい　は　ゴジラ
+に　あがりました
+Godzilla emerged
+victorious.
+
+うちゅうかいじゅう
+ぜんめつ！！
+Space monsters
+annihilated!
+
+ぼうえいぐん　を
+かんぜん　に
+たたき　つぶしました
+The JSDF
+has been
+utterly crushed.
+
+ゴジラの　てき　では
+なかった　ようです
+It seems they were
+no match for Godzilla.
+
+
+	units
+
+ゴジラ
+Godzilla
+Ｓ．ゴジラ
+S. Godzilla
+アンギラス
+Anguirus
+キングギドラ
+King Ghidorah
+ガイガン
+Gigan
+モスラ
+Mothra
+メカギドラ
+Mecha-King Ghidorah
+Ｆ．ラドン
+Fire Rodan
+メカゴジラ
+Mechagodzilla
+Ｓ．メカゴジラ
+Super-Mechagodzilla
+スペースゴジラ
+SpaceGodzilla
+ガルーダ
+Garuda
+Ｆ１５せんとうき
+F15 Fighter
+Ｆ８６せんとうき
+F86 Fighter
+せんとうヘリ
+Battle Copter
+６１しきせんしゃ
+Type61 Tank
+７４しきせんしゃ
+Type74 Tank
+７５しきミサイル
+Type75 Missile
+Ｍ２４せんしゃ
+M24 Tank
+ミサイルほう
+Missile Launcher
+おおがたミサイル
+Large Missile Launcher
+ゆそうトラック
+Transport Truck
+ゆそうかん
+Transport Ship
+ゆそうヘリ
+Transport Copter
+ねっせんほう
+Heatray Cannon
+メーサーしゃ
+Maser Emitter
+メーサータンク
+Maser Tank
+メーサーき
+Maser Jet
+たいくうメーサー
+Anti-Air Maser
+ごえいかん
+Destroyer
+スーパーＸ
+Super-X
+スーパーＸ２
+Super-X2
+モゲラ
+MOGUERA
+オキシジェン・Ｄ
+Oxygen Destroyer
+
+	Credits
+	
+プロデューサー
+	かたぎり　ひでき
+	
+Producer
+	Hideki Katagiri
+	
+ディレクター
+	のむら　やすひろ
+	
+Director
+	Yasuhiro Nomura
+	
+プランナー
+	いのくち　こうじ
+	もりした　つとむ
+	
+Planners
+	Koji Inokuchi
+	Tsutomu Morishita
+	
+プログラマー
+	やまぐち　ひでお
+	おのざと　たかし
+	あきね　まさあき
+	
+Programmers
+	Hideo Yamaguchi
+	Takashi Onozato
+	Masaaki Akine
+	
+グラフィック　デザイナー
+	もりした　つとむ
+	かなざわ　しげひろ
+	わたびき　あきら
+
+Graphic Designers
+	Tsutomu Morishita
+	Shigehiro Kanazawa
+	Akira Watabiki
+	
+サウンド　デザイナー
+	やまもと　ようこ
+	
+Sound Designer
+	Yoko Yamamoto
+	
+アドバイザー
+	まちだ　のぼる
+	まつしま　のぶお
+	やぎ　ひろゆき
+	かつた　えみ
+	やまもと　あつし
+	いとう　まさひろ
+	かんの　まさひろ
+	
+Advisers
+	Noboru Machida
+	Nobuo Matsushima
+	Hiroyuki Yagi
+	Emi Katsuta
+	Atsushi Yamamoto
+	Masahiro Ito
+	Masahiro Kanno
+	
+	完
+	Fin

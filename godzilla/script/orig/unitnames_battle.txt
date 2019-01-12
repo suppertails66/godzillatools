@@ -1,0 +1,334 @@
+//=======================================
+// unit names (battle)
+//=======================================
+
+// substring 0
+#STARTMSG(0x0, 6, 2)
+
+// ゴジラ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 1
+#STARTMSG(0x6, 8, 2)
+
+// Ｓ・ゴジラ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 2
+#STARTMSG(0xE, 7, 2)
+
+// アンギラス[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 3
+#STARTMSG(0x15, 7, 2)
+
+// Ｆ・ラドン[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 4
+#STARTMSG(0x1C, 10, 2)
+
+// キングギドラ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 5
+#STARTMSG(0x26, 7, 2)
+
+// ガイガン[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 6
+#STARTMSG(0x2D, 11, 2)
+
+// スペースゴジラ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 7
+#STARTMSG(0x38, 4, 2)
+
+// モスラ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 8
+#STARTMSG(0x3C, 7, 2)
+
+// スーパーＸ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 9
+#STARTMSG(0x43, 8, 2)
+
+// スーパーＸ２[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 10
+#STARTMSG(0x4B, 8, 2)
+
+// メカギドラ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 11
+#STARTMSG(0x53, 8, 2)
+
+// メカゴジラ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 12
+#STARTMSG(0x5B, 10, 2)
+
+// Ｓ・メカゴジラ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 13
+#STARTMSG(0x65, 7, 2)
+
+// ガルーダ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 14
+#STARTMSG(0x6C, 5, 2)
+
+// モゲラ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 15
+#STARTMSG(0x71, 9, 2)
+
+// ６１しきせんしゃ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 16
+#STARTMSG(0x7A, 9, 2)
+
+// ７４しきせんしゃ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 17
+#STARTMSG(0x83, 8, 2)
+
+// Ｍ２４せんしゃ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 18
+#STARTMSG(0x8B, 7, 2)
+
+// ミサイルほう[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 19
+#STARTMSG(0x92, 9, 2)
+
+// ７５しきミサイル[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 20
+#STARTMSG(0x9B, 10, 2)
+
+// おおがたミサイル[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 21
+#STARTMSG(0xA5, 7, 2)
+
+// ねっせんほう[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 22
+#STARTMSG(0xAC, 7, 2)
+
+// メーサーしゃ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 23
+#STARTMSG(0xB3, 8, 2)
+
+// メーサータンク[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 24
+#STARTMSG(0xBB, 9, 2)
+
+// たいくうメーサー[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 25
+#STARTMSG(0xC4, 8, 2)
+
+// ゆそうトラック[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 26
+#STARTMSG(0xCC, 7, 2)
+
+// ごえいかん[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 27
+#STARTMSG(0xD3, 6, 2)
+
+// ゆそうかん[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 28
+#STARTMSG(0xD9, 7, 2)
+
+// せんとうヘリ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 29
+#STARTMSG(0xE0, 6, 2)
+
+// ゆそうヘリ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 30
+#STARTMSG(0xE6, 9, 2)
+
+// Ｆ８６せんとうき[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 31
+#STARTMSG(0xEF, 9, 2)
+
+// Ｆ１５せんとうき[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 32
+#STARTMSG(0xF8, 6, 2)
+
+// メーサーき[end]
+
+[end]
+
+
+#ENDMSG()
+

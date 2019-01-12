@@ -1,0 +1,15 @@
+
+#LOADTABLE("table/godzilla_missioncomplete_en.tbl")
+
+ MISSION  
+
+#ENDMSG()
+#BREAK()
+
+#LOADTABLE("table/godzilla_missioncomplete_en.tbl")
+
+COMPLETE!!
+
+#ENDMSG()
+#BREAK()
+ 

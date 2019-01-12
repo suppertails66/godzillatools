@@ -1,0 +1,34 @@
+//=======================================
+// dialogue message names
+//=======================================
+
+// substring 0
+#STARTMSG(0xCBBD, 9, 2)
+
+// ‚Ú‚¤‚¦‚¢‚®‚ñ[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 1
+#STARTMSG(0xCBC6, 6, 2)
+
+// ƒSƒWƒ‰[end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 2
+#STARTMSG(0xCBCC, 5, 2)
+
+// ƒ‰ƒhƒ“[end]
+
+[end]
+
+
+#ENDMSG()
+

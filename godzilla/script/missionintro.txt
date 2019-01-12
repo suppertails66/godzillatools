@@ -1,0 +1,692 @@
+//=======================================
+// mission description text
+//=======================================
+
+#SETSIZE(112, 5)
+
+// tilemap 0
+#STARTMSG(0x41781, 224, 2)
+
+// 　　　　　　　゛　　　　　　　　
+// 　うちゅうかいしゅう　　　　　　
+// 　　　゛゛゛　　　゛　゛　　　　
+// 　キンクキトラ　　カイカン　を　
+// 　　　　　　　　　　　　　　　　
+// 　たおせ！！　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Defeat the Space Monsters King Ghidorah and Gigan!
+[end]
+
+
+#ENDMSG()
+
+// tilemap 1
+#STARTMSG(0x41861, 224, 2)
+
+// 　　　　　　　　　　　　　　　　
+// 　りょうほう　とも　たおすと　　
+// 　　　　゛　　　　　　　　　　　
+// 　ステーシクリア　に　なります　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Defeat both to clear the stage.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 2
+#STARTMSG(0x41941, 224, 2)
+
+// 　゛゛　゛゛　　　　　　　　　　
+// 　ヘヒーコシラ　を　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　まもれ！！　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Protect Baby Godzilla!
+[end]
+
+
+#ENDMSG()
+
+// tilemap 3
+#STARTMSG(0x41A21, 224, 2)
+
+// 　゛゛　゛゛　　　　　　　　　　
+// 　ヘヒーコシラ　を　　　　　　　
+// 　　　　　　　　　゛　　　　　　
+// 　とられない　ことか　　　　　　
+// 　　　　　　゛　　　　　　　　　
+// 　たいせつ　てす　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Preventing Baby Godzilla from being stolen is of the utmost importance.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 4
+#STARTMSG(0x41B01, 224, 2)
+
+// 　　　　　　　゛　　　　　　　　
+// 　うちゅうかいしゅう　　　　　　
+// 　　゜　　゛゛　　　　　　　　　
+// 　スヘースコシラ　を　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　たおせ！！　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Defeat the Space Monster SpaceGodzilla!
+[end]
+
+
+#ENDMSG()
+
+// tilemap 5
+#STARTMSG(0x41BE1, 224, 2)
+
+// 　　　　　　　　　　　　　　　　
+// 　たおすと　　　　　　　　　　　
+// 　　　　゛　　　　　　　　　　　
+// 　ステーシクリア　に　なります　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Once defeated, the stage is cleared.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 6
+#STARTMSG(0x41CC1, 224, 2)
+
+// 　゛゛　　　　　　　　　゛　　　
+// 　コシラ　を　たおすことても　　
+// 　　　　゛　　　　　　　　　　　
+// 　ステーシクリア　に　なります　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Defeating Godzilla will also clear the stage.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 7
+#STARTMSG(0x41DA1, 224, 2)
+
+// 　　　　　　゛　　　　　゛　　　
+// 　しれいほんふ　に　ちかついて　
+// 　　　　゛　　　　　　　　　　　
+// 　ふみつふす　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　または・・・　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+If the Command HQ is approached and crushed, or...
+[end]
+
+
+#ENDMSG()
+
+// tilemap 8
+#STARTMSG(0x41E81, 224, 2)
+
+// 　゛　　　゛　　　　　　　　　　
+// 　ほうえいくん　の　へいき　を　
+// 　゛　　　　　　　　　　゛　　　
+// 　せんめつ　させること　ても　　
+// 　　　　゛　　　　゛　　　　　　
+// 　ステーシクリア　てす　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+...if all of the JSDF's weapons are destroyed, the stage is cleared.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 9
+#STARTMSG(0x41F61, 224, 2)
+
+// 　　　゛　　　　　　　　　　　　
+// 　かいしゅうおう　　　　　　　　
+// 　゛゛　　　　　　　　　　　　　
+// 　コシラ　を　たおせ！！　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Defeat Godzilla, the King of the Monsters!
+[end]
+
+
+#ENDMSG()
+
+// tilemap 10
+#STARTMSG(0x42041, 224, 2)
+
+// 　゛゛　　　　　　　　　　　　　
+// 　コシラ　を　たおす　と　　　　
+// 　　　　゛　　　　　　　　　　　
+// 　ステーシクリア　に　なります　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Defeating Godzilla will clear the stage.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 11
+#STARTMSG(0x42121, 224, 2)
+
+// 　　　　　　　　　　　　　　　　
+// 　はかいもくひょう　　　　　　　
+// 　　　　　　゛　　　　　　　　　
+// 　しれいほんふ！！　　　　　　　
+// 　゛　　　゛　　　　　　　　　　
+// 　ほうえいくんへいき！！　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Your targets are the Command HQ and the JSDF's weapons!
+[end]
+
+
+#ENDMSG()
+
+// tilemap 12
+#STARTMSG(0x42201, 224, 2)
+
+// 　　　　　　゛　　　　　　゛　　
+// 　しれいほんふ　を　ふみつふす　
+// 　　　　　　　　　　　　　　　　
+// 　または・・・　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+If the Command HQ is destroyed, or...
+[end]
+
+
+#ENDMSG()
+
+// tilemap 13
+#STARTMSG(0x422E1, 224, 2)
+
+// 　゛　　　゛　　　　　　　　　　
+// 　ほうえいくん　の　へいき　を　
+// 　゛　　　　　　　　　　　　　　
+// 　せんめつ　させる　と　　　　　
+// 　　　　゛　　　　゛　　　　　　
+// 　ステーシクリア　てす　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+...if all of the JSDF's weapons are destroyed, the stage is cleared.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 14
+#STARTMSG(0x423C1, 224, 2)
+
+// 　゛゛　゛゛　　　　　　　　　　
+// 　ヘヒーコシラ　を　　　　　　　
+// 　　　　゛　　　　　　　　　　　
+// 　とりもとせ！！　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Retrieve Baby Godzilla!
+[end]
+
+
+#ENDMSG()
+
+// tilemap 15
+#STARTMSG(0x424A1, 224, 2)
+
+// 　゛゛　゛゛　　　　　　　　　　
+// 　ヘヒーコシラ　を　　　　　　　
+// 　　　　゛　　　　゛　　　　　　
+// 　とりもとす　ことか　　　　　　
+// 　　　　　　゛　　　　　　　　　
+// 　たいせつ　てす　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Retrieving Baby Godzilla is of the utmost importance.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 16
+#STARTMSG(0x42581, 224, 2)
+
+// 　゛゛　　　　　　　　　゛　　　
+// 　コシラタワー　に　ちかつくと　
+// 　　　゛　　　　　　　　　　　　
+// 　こうけき　されます　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Godzilla Tower will attack if approached.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 17
+#STARTMSG(0x42661, 224, 2)
+
+// 　　゛　　　　　　　　　　　　　
+// 　ちしょうへいき　を　タワーに　
+// 　　　　　　　　　　　　　　　　
+// 　となりあわせる　と　　　　　　
+// 　　　　゛　　　゛　゛　　　　　
+// 　とりもとすことか　てきます　　
+// 　　　　　　　　　　　　　　　　
+// 
+//The tower can be conquered by approaching it with a ground unit.
+The tower can be taken over by approaching it with a ground unit.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 18
+#STARTMSG(0x42741, 224, 2)
+
+// 　　　　　　　　　゛　　　　　　
+// 　ふくおかタワー　か　　　　　　
+// 　　゜　　゛゛　　　　　　　　　
+// 　スヘースコシラ　を　たおす　　
+// 　　゛　　　　　　　　　　　　　
+// 　かき　に　なります　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+The Fukuoka Tower is the key to defeating SpaceGodzilla.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 19
+#STARTMSG(0x42821, 224, 2)
+
+// 　　　　゛　　　゛　　　　　　　
+// 　オキシシェン・テストロイヤー　
+// 　　　　　　゛　゛゛　　　　　　
+// 　を　つかえは　コシラ　を　　　
+// 　　　゛　　゛　　　　　　　　　
+// 　いちけき　て　たおせます　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Using the Oxygen Destroyer will defeat Godzilla in one hit.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 20
+#STARTMSG(0x42901, 224, 2)
+
+// 　゛　　゛　　　　　　　　　　　
+// 　カルータ　は　　　　　　　　　
+// 　　　゛゛　　　　゛　　　　　　
+// 　メカコシラ　と　かったい　　　
+// 　　　　　　゛　゛　　　　　　　
+// 　すること　か　てきます　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Garuda can merge with Mechagodzilla.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 21
+#STARTMSG(0x429E1, 224, 2)
+
+// 　゛　　゛　　　　　゛゛　　　　
+// 　カルータ　と　メカコシラ　を　
+// 　　　　　　　　　　　　　　　　
+// 　となりあわせると　　　　　　　
+// 　゛　　　　゛　　　　　　　　　
+// 　かったい　てきます　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+//Place Garuda next to Mechagodzilla to merge them.
+
+// same message is used whether player is g-force or godzilla
+Positioning Garuda next to Mechagodzilla allows them to merge.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 22
+#STARTMSG(0x42AC1, 224, 2)
+
+// 　　　　　゛　　゛　　　　　　　
+// 　おおきなヒル　か　こわれると　
+// 　　　　　　　　　　゛　゛　　　
+// 　とし　の　かいめつと　か　　　
+// 　　゛　　　　　　　　　　　　　
+// 　あかります　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+//Destruction rate increases by destroying large buildings.
+The destruction rate increases when large buildings are destroyed.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 23
+#STARTMSG(0x42BA1, 224, 2)
+
+// 　゛゛　゛　　゛　　　　　　　　
+// 　コシラくん　か　こわすと　　　
+// 　　　　　　　　　　゛　゛　　　
+// 　とし　の　かいめつと　か　　　
+// 　　゛　　　　　　　　　　　　　
+// 　あかります　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+// you have no idea how long we spent trying to make sense of this.
+// why is it displayed only in stages 2 and 3? is there something special
+// about those?
+// no, not as far as any of the 4 people tasked with solving this complex
+// problem could determine
+Any destruction caused by Godzilla's side increases the city's destruction rate.
+
+[end]
+
+
+#ENDMSG()
+
+// tilemap 24
+#STARTMSG(0x42C81, 224, 2)
+
+// 　゛　　　゛　　　　　　　　　　
+// 　ほうえいくんへいき　の　　　　
+// 　゛　　　　　　　　　　　　　　
+// 　せんめつ　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　または・・・　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+If all JSDF weapons are destroyed, or...
+[end]
+
+
+#ENDMSG()
+
+// tilemap 25
+#STARTMSG(0x42D61, 224, 2)
+
+// 　　　　　　゛　゛　　　　　　　
+// 　しれいほんふ　か　　　　　　　
+// 　　　　゛　　　　　　　　　　　
+// 　ふみつふされる　と　　　　　　
+// 　゛　　　　゛　　゛　　　　　　
+// 　ケームオーハー　てす　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+...if the Command HQ is destroyed, it's Game Over.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 26
+#STARTMSG(0x42E41, 224, 2)
+
+// 　゛゛　゛　　　　　　　　　　　
+// 　コシラか　やられて　しまうと　
+// 　゛　　　　゛　　゛　　　　　　
+// 　ケームオーハー　てす　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+If Godzilla is defeated, it's Game Over.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 27
+#STARTMSG(0x42F21, 224, 2)
+
+// 　　　　　　゛　　　　　　　　　
+// 　ターンオーハー　に　なっても　
+// 　゛　　　　゛　　゛　　　　　　
+// 　ケームオーハー　てす　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+If all turns elapse, it's Game Over.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 28
+#STARTMSG(0x43001, 224, 2)
+
+// 　　　　　　　　　　　　　　　　
+// 　まちを　まもって　　　　　　　
+// 　　　　　゛　　　　　　　　　　
+// 　かいめつとを　　　％　いかに　
+// 　　　　　　　　　　　　　　　　
+// 　おさえましょう　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+//Protect the city by keeping the destruction rate lower than [inline_num]%.
+Protect the city by keeping the destruction rate below [inline_num]%.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 29
+#STARTMSG(0x430E1, 224, 2)
+
+// 　　　　　　　　　　　　　　　　
+// 　まち　を　はかい　して　　　　
+// 　　　　　゛　　　　　　　　　　
+// 　かいめつと　を　　　　　　　　
+// 　　　　　゛　　　　　　　　　　
+// 　　　％いしょうにしましょう　　
+// 　　　　　　　　　　　　　　　　
+// 
+//Destroy the city and reach a destruction rate of [inline_num]%.
+Destroy the city and achieve a destruction rate of [inline_num]%.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 30
+#STARTMSG(0x431C1, 224, 2)
+
+// 　　　　゛　　　゛　　　　　　　
+// 　オキシシェン・テストロイヤー　
+// 　゛　　　　　　　　　　　　　　
+// 　か　かんせいする　と　　　　　
+// 　　　　　　゛　　　　　　　　　
+// 　ゆそうヘリか　あらわれます　　
+// 　　　　　　　　　　　　　　　　
+// 
+Once the Oxygen Destroyer is complete, a transport copter will appear.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 31
+#STARTMSG(0x432A1, 224, 2)
+
+// 　　　　　　　　　　　　　　　　
+// 　ゆそうヘリ　を　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　ゆそうかん　に　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　となりあわせると・・・　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Move the transport copter next to the transport ship, and...
+[end]
+
+
+#ENDMSG()
+
+// tilemap 32
+#STARTMSG(0x43381, 224, 2)
+
+// 　　　　　　　　　　　　　　　　
+// 　ゆそうかん　に　　　　　　　　
+// 　　　　゛　　　゛　　　　　　　
+// 　オキシシェン・テストロイヤー　
+// 　　　　　　　　゛　゛　　　　　
+// 　を　うつすことか　てきます　　
+// 　　　　　　　　　　　　　　　　
+// 
+...the Oxygen Destroyer will be loaded onto the transport ship.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 33
+#STARTMSG(0x43461, 224, 2)
+
+// 　　　　　　　゛　゛゛　　　　　
+// 　ゆそうかん　て　コシラ　を　　
+// 　　　゛　　　　　　　　　　　　
+// 　こうけき　すると・・・　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+Use the transport ship to attack Godzilla, and...
+[end]
+
+
+#ENDMSG()
+
+// tilemap 34
+#STARTMSG(0x43541, 224, 2)
+
+// 　　　　゛　　　゛　　　　　　　
+// 　オキシシェン・テストロイヤー　
+// 　゛　゛゛　　　　　　　　　゛　
+// 　て　コシラ　を　たおすことか　
+// 　゛　　　　　　　　　　　　　　
+// 　てきます　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+...the Oxygen Destroyer will defeat Godzilla.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 35
+#STARTMSG(0x43621, 224, 2)
+
+// 　　　　゛　　　゛　　　　　　　
+// 　オキシシェン・テストロイヤー　
+// 　　　　　゛　　　　　　　　　　
+// 　を　つんた　ゆそうかん　と　　
+// 　　　　　　　　　　　　　　　　
+// 　たたかう　と・・・　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+//If Godzilla fights the ship equipped with the Oxygen Destroyer...
+
+// note: the oxygen destroyer must specifically be loaded onto a boat
+// in order to be used.
+// it can also be transported by helicopter, but it's safe for godzilla to
+// attack that.
+// editing translation to make this distinction more clear.
+If Godzilla fights a boat that has been loaded with the Oxygen Destroyer...
+[end]
+
+
+#ENDMSG()
+
+// tilemap 36
+#STARTMSG(0x43701, 224, 2)
+
+// 　゛゛　　　　　　゛　　゛　　　
+// 　コシラ　は　いちけき　て　　　
+// 　　　　　　　　　　　　　　　　
+// 　やられて　しまいます　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+...Godzilla will be defeated immediately.
+[end]
+
+
+#ENDMSG()
+
+// tilemap 37
+#STARTMSG(0x437E1, 224, 2)
+
+// 　　　　　　゛　　　゜　　　　　
+// 　このステーシ　を　フレイ　　　
+// 　しますか？　　　　　　゛　　　
+// 　　　する　・・・・　２ホタン　
+// 　　　　　　　　　　　　゛　　　
+// 　　　しない　・・・　１ホタン　
+// 　　　　　　　　　　　　　　　　
+// 
+Play this stage?[br]
+[br]
+[tilebr][tilebr] Yes[tilebr]...[tilebr]Button 2[br]
+[tilebr][tilebr] No[tilebr][tilebr]...[tilebr]Button 1
+[end]
+
+
+#ENDMSG()
+
+// tilemap 38
+#STARTMSG(0x438C1, 224, 2)
+
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　
+// 
+
+[end]
+
+
+#ENDMSG()
+
