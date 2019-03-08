@@ -211,7 +211,7 @@
 ; existing routines
 ;===============================================
 
-.define sendRawTilesToVdp $A64
+;.define sendRawTilesToVdp $A64
 .define sendReversedRawTilesToVdp $A75
 .define sendTilemapToAbsoluteVdpAddr $8BE
 .define sendHalfTilemapToAbsoluteVdpAddr $8ED
@@ -1079,15 +1079,15 @@
         out ($BF),a
         
         ; waste cycles
-;        push iy
-;        pop iy
+        push iy
+        pop iy
         ; read low byte
         in a,($BE)
         ld e,a
         
         ; waste cycles
-;        push iy
-;        pop iy
+        push iy
+        pop iy
         ; read high byte
         in a,($BE)
         ld d,a
@@ -1102,15 +1102,15 @@
     out ($BF),a
         
     ; waste cycles
-;    push iy
-;    pop iy
+    push iy
+    pop iy
     ; read low byte
     in a,($BE)
     ld e,a
     
     ; waste cycles
-;    push iy
-;    pop iy
+    push iy
+    pop iy
     ; read high byte
     in a,($BE)
     ld d,a
@@ -1174,15 +1174,15 @@
         
         ld a,e
         ; waste cycles
-;        push iy
-;        pop iy
+        push iy
+        pop iy
         ; write low byte
         out ($BE),a
         
         ld a,d
         ; waste cycles
-;        push iy
-;        pop iy
+        push iy
+        pop iy
         ; write high byte
         out ($BE),a
       ei
@@ -1197,15 +1197,15 @@
     
     ld a,e
     ; waste cycles
-;    push iy
-;    pop iy
+    push iy
+    pop iy
     ; write low byte
     out ($BE),a
     
     ld a,d
     ; waste cycles
-;    push iy
-;    pop iy
+    push iy
+    pop iy
     ; write high byte
     out ($BE),a
     
@@ -2549,7 +2549,7 @@
               ; push VDP write command
               push hl
 ;                di
-                  call sendRawTilesToVdp
+                  call sendRawTilesToVdp_intro
 ;                ei
                 ; next tile srcptr to DE
                 ex de,hl
@@ -2573,6 +2573,34 @@
       pop bc
       pop de
       ret
+    
+    sendRawTilesToVdp_intro:
+      ; B  = number of tiles
+      ; DE = src data pointer
+      ; HL = VDP dstaddr
+      ld c,$BF
+      out (c),l
+      nop
+      out (c),h
+      nop
+      ex de,hl
+      ld d,b
+      dec c
+;      push iy
+;      pop iy
+      -:
+  ;      ; RAM execution: OUTI * 32 + RET
+  ;      call $D6BF
+        ld b,bytesPerTile
+        --:
+          push iy
+          pop iy
+          outi
+          jr nz,--
+        dec d
+        jp nz,-
+      ret
+      
   .ends
 
   .bank $0F slot 2
@@ -2701,7 +2729,9 @@
       ; send next column (DE = VDP target)
       inc c
       out (c),e
+;      nop
       out (c),d
+;      nop
       dec c
       ld a,$40
       add a,e
@@ -5214,12 +5244,17 @@
       ld b,numNewTitleGodzillaGrpTiles
       ld de,newTitleGodzillaGrp
       ld hl,$6020
-      call sendRawTilesToVdp
+      di
+        call sendRawTilesToVdp
+      ei
       
       ld b,numCompendiumMenuLabelTiles
       ld de,newCompendiumMenuLabel
       ld hl,$4C00
-      jp sendRawTilesToVdp
+      di
+        call sendRawTilesToVdp
+      ei
+      ret
     
     sendNewTitleLogo_ext:
       ld bc,$1407
@@ -5408,7 +5443,9 @@
     ld b,theEndGrpNumTiles
     ld de,theEndGrp
     ld hl,$5A40
-    call sendRawTilesToVdp
+    di
+      call sendRawTilesToVdp
+    ei
     
     ; send tilemap
     xor a
@@ -5521,5 +5558,34 @@
         inc de
       pop bc
       djnz -
+    ret
+.ends
+
+.bank $01 slot 1
+.section "send raw tiles to VDP" free
+  ; B  = number of tiles
+  ; DE = src data pointer
+  ; HL = VDP dstaddr
+  sendRawTilesToVdp:
+    ld c,$BF
+    out (c),l
+    nop
+    out (c),h
+    nop
+    ex de,hl
+    ld d,b
+    dec c
+;    push iy
+;    pop iy
+    -:
+;      ; RAM execution: OUTI * 32 + RET
+;      call $D6BF
+      .rept 32
+        push iy
+        pop iy
+        outi
+      .endr
+      dec d
+      jp nz,-
     ret
 .ends
